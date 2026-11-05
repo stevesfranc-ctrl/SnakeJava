@@ -29,3 +29,4 @@ Pour cette commande, ajoutez le plugin Maven Exec si nécessaire, ou lancez `com
 - Les méthodes encore incomplètes sont marquées `TODO`.
 - Toute modification d'une signature publique doit être validée par le responsable technique.
 # SnakeJava
+# SnakeJava
