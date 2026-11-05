@@ -29,5 +29,9 @@ Pour cette commande, ajoutez le plugin Maven Exec si nécessaire, ou lancez `com
 - Les méthodes encore incomplètes sont marquées `TODO`.
 - Toute modification d'une signature publique doit être validée par le responsable technique.
 
-# SnakeJava
+## 🎮 Aperçu du jeu
+
+Voici un aperçu du rendu souhaité de notre jeu Snake en Java (console) :
+
+![Aperçu du jeu SnakeJava](images/snake-game-preview.png)
 
