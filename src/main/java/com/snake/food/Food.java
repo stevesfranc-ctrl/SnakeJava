@@ -9,8 +9,16 @@ public class Food {
         setPosition(position);
     }
 
+    /***
+     *
+     * @return
+     */
     public Position getPosition() { return position; }
 
+    /****
+     *
+     * @param position
+     */
     public void setPosition(Position position) {
         if (position == null) throw new IllegalArgumentException("La position de la nourriture est obligatoire.");
         this.position = position;

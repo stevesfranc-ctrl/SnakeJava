@@ -23,10 +23,14 @@ public class Game {
         state = GameState.MENU;
     }
 
+
     public void start() {
         state = GameState.PLAYING;
     }
 
+    /***
+     *
+     */
     public void update() {
         // TODO : orchestrer un tour de jeu selon l'ordre défini dans le contrat d'intégration.
     }
@@ -40,10 +44,39 @@ public class Game {
         state = GameState.MENU;
     }
 
+    /***
+     *
+     * @return GameState
+     */
     public GameState getState() { return state; }
+
+    /***
+     *
+     * @return Board
+     */
     public Board getBoard() { return board; }
+
+    /***
+     *
+     * @return Snake
+     */
     public Snake getSnake() { return snake; }
+
+    /***
+     *
+     * @return Food
+     */
     public Food getFood() { return food; }
+
+    /***
+     *
+     * @return ScoreManager
+     */
     public ScoreManager getScoreManager() { return scoreManager; }
+
+    /***
+     *
+     * @return CollisionManager
+     */
     public CollisionManager getCollisionManager() { return collisionManager; }
 }
