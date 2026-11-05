@@ -1,6 +1,7 @@
 package com.snake.board;
 
 public class Board {
+
     private final int width;
     private final int height;
 
