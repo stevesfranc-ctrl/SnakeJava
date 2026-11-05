@@ -18,20 +18,47 @@ public class Snake {
         }
     }
 
+    /***
+     *
+     * @return Position
+     */
     public Position getHead() { return body.get(0); }
+
+    /***
+     *
+     * @return List<Position>
+     */
     public List<Position> getBody() { return Collections.unmodifiableList(body); }
+
+    /***
+     *
+     * @return Direction
+     */
     public Direction getDirection() { return direction; }
 
+    /***
+     *
+     * @param newDirection
+     * @return
+     */
     public boolean changeDirection(Direction newDirection) {
         if (newDirection == null || direction.isOpposite(newDirection)) return false;
         direction = newDirection;
         return true;
     }
 
+    /***
+     *
+     * @return Position
+     */
     public Position getNextHeadPosition() {
         return getHead().translate(direction.getDx(), direction.getDy());
     }
 
+    /***
+     *
+     * @param grow
+     */
     public void move(boolean grow) {
         body.add(0, getNextHeadPosition());
         if (!grow) body.remove(body.size() - 1);

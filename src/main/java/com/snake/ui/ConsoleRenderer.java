@@ -15,6 +15,10 @@ public class ConsoleRenderer {
         System.out.println("Le jeu est en cours de construction.");
     }
 
+    /***
+     *
+     * @param finalScore
+     */
     public void displayGameOver(int finalScore) {
         System.out.println("GAME OVER - Score : " + finalScore);
     }
