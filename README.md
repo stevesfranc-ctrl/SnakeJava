@@ -29,13 +29,5 @@ Pour cette commande, ajoutez le plugin Maven Exec si nécessaire, ou lancez `com
 - Les méthodes encore incomplètes sont marquées `TODO`.
 - Toute modification d'une signature publique doit être validée par le responsable technique.
 
-## 👥 Contributors
-
-SnakeJava is developed collaboratively by students
-and open-source contributors.
-
-See [CONTRIBUTORS.md](CONTRIBUTORS.md)
-for the complete list of contributors.
-
 # SnakeJava
 
